@@ -1,0 +1,7 @@
+extern library "stdbool.h"
+
+extern variable true;
+extern variable false;
+
+const let __bool_defined: bool = true;
+

@@ -1,0 +1,13 @@
+extern library "wchar.h"
+
+extern type mbstate_t;
+extern type size_t;
+// extern type struct tm (add later)
+extern type wchar_t;
+extern type wint_t;
+
+extern variable NULL;
+extern variable WCHAR_MAX;
+extern variable WCHAR_MIN;
+extern variable WEOF;
+

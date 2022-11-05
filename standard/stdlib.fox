@@ -1,0 +1,36 @@
+extern library "stdlib.h"
+
+extern function abort;
+extern function atexit;
+extern function exit;
+extern function getenv;
+extern function system;
+extern function abs;
+extern function div;
+extern function labs;
+extern function ldiv;
+extern function rand;
+extern function srand;
+extern function atof;
+extern function atoi;
+extern function atol;
+extern function strtod;
+extern function strtol;
+extern function strtoll;
+extern function strtoul;
+extern function bsearch;
+extern function qsort;
+extern function calloc;
+extern function malloc;
+extern function realloc;
+extern function free;
+extern function mblen;
+extern function mbtowc;
+extern function wctomb;
+extern function mbstowcs;
+extern function wcstombs;
+extern function arc4random;
+extern function arc4random_uniform;
+extern function arc4random_buf;
+extern funtion arc4random_stir;
+

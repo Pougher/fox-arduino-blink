@@ -1,0 +1,8 @@
+extern library "stdalign.h"
+
+extern function alignas;
+extern function alignof;
+
+extern variable __alignas_is_defined;
+extern variable __alignof_is_defined;
+

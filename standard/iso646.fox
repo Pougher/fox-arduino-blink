@@ -1,0 +1,14 @@
+extern library "iso646.h"
+
+extern variable and;
+extern variable and_eq;
+extern variable bitand;
+extern variable bitor;
+extern variable compl;
+extern variable not;
+extern variable not_eq;
+extern variable or;
+extern variable or_eq;
+extern variable xor;
+extern variable xor_eq;
+

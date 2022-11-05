@@ -1,0 +1,7 @@
+extern library "errno.h"
+
+extern variable errno;
+extern variable EDOM;
+extern variable ERANGE;
+extern variable EILSEQ;
+

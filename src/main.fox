@@ -1,0 +1,21 @@
+extern library "fcpu.h"
+extern library "avr/io.h"
+extern library "util/delay.h"
+
+extern function _delay_ms;
+
+extern variable DDRB;
+extern variable PORTB;
+
+
+fn main() -> i32 {
+    DDRB = 32;
+
+    while (1) {
+	PORTB = 32;
+	_delay_ms(500);
+	PORTB = 0;
+	_delay_ms(500);
+    }
+    return 0;
+}

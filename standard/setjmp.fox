@@ -1,0 +1,7 @@
+extern library "setjmp.h"
+
+extern function setjmp;
+extern function longjmp;
+
+extern type jmp_buf;
+

@@ -1,0 +1,36 @@
+extern library "ctype.h"
+
+extern function isalnum;
+extern function isalpha;
+extern function islower;
+extern function isupper;
+extern function isdigit;
+extern function isxdigit;
+extern function iscntrl;
+extern function isgraph;
+extern function isspace;
+extern function isblank;
+extern function isprint;
+extern function ispunct;
+extern function tolower;
+extern function toupper;
+extern function iswalnum;
+extern function iswalpha;
+extern function iswupper;
+extern function iswlower;
+extern function iswupper;
+extern function iswdigit;
+extern function iswxdigit;
+extern function iswcntrl;
+extern function iswgraph;
+extern function iswspace;
+extern function iswblank;
+extern function iswprint;
+extern function iswpunct;
+extern function towlower;
+extern function towupper;
+extern function iswctype;
+extern function towctrans;
+extern function wctype;
+extern function wctrans;
+

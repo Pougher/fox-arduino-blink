@@ -1,0 +1,14 @@
+extern library "fenv.h"
+
+extern function feclearexcept;
+extern function fegetenv;
+extern function fegetexceptflag;
+extern function fegetround;
+extern function feholdexcept;
+extern function feraiseexcept;
+extern function fesetenv;
+extern function fesetexceptflag;
+extern function fesetround;
+extern function fetestexcept;
+extern function feupdateenv;
+

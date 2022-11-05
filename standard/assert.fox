@@ -1,0 +1,4 @@
+extern library "assert.h"
+
+extern function assert;
+

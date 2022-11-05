@@ -1,0 +1,27 @@
+extern library "wctype.h"
+
+extern function iswalnum;
+extern function iswalpha;
+extern function iswblank;
+extern function iswcntrl;
+extern function iswdigit;
+extern function iswgraph;
+extern function iswlower;
+extern function iswprint;
+extern function iswpunct;
+extern function iswspace;
+extern function iswupper;
+extern function iswxdigit;
+extern function towlower;
+extern function towupper;
+extern function iswctype;
+extern function towctrans;
+extern function wctrans;
+extern function wctype;
+
+extern type wctrans_t;
+extern type wctype_t;
+extern type wint_t;
+
+extern variable WEOF;
+

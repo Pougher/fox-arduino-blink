@@ -1,0 +1,31 @@
+extern library "stdint.h"
+
+extern type int8_t;
+extern type int16_t;
+extern type int32_t;
+extern type int64_t;
+extern type uint8_t;
+extern type uint16_t;
+extern type uint32_t;
+extern type uint64_t;
+extern type int_least8_t;
+extern type int_least16_t;
+extern type int_least32_t;
+extern type int_least64_t;
+extern type uint_least8_t;
+extern type uint_least16_t;
+extern type uint_least32_t;
+extern type uint_least64_t;
+extern type int_fast8_t;
+extern type int_fast16_t;
+extern type int_fast32_t;
+extern type int_fast64_t;
+extern type uint_fast8_t;
+extern type uint_fast16_t;
+extern type uint_fast32_t;
+extern type uint_fast64_t;
+extern type intptr_t;
+extern type uintptr_t;
+extern type intmax_t;
+extern type uintmax_t;
+

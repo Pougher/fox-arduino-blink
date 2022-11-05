@@ -1,0 +1,5 @@
+extern library "locale.h"
+
+extern function setlocale;
+extern function localeconv;
+

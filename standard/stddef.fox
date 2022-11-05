@@ -1,0 +1,5 @@
+extern library "stddef.h"
+
+extern type size_t;
+extern type ptrdiff_t;
+

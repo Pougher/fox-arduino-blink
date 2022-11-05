@@ -1,0 +1,10 @@
+extern library "uchar.h"
+
+extern variable __STD_UTF_16__
+extern variable __STD_UTF_32__
+
+extern function c16rtomb;
+extern function c32rtomb;
+extern function mbrtoc16;
+extern function mbrtoc32;
+

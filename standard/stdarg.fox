@@ -1,0 +1,9 @@
+extern library "stdarg.h"
+
+extern type va_list;
+
+extern function va_start;
+extern function va_arg;
+extern function va_end;
+extern function va_copy;
+

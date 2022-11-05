@@ -1,0 +1,23 @@
+extern function "time.h"
+
+extern function difftime;
+extern function time;
+extern function clock;
+extern function timespec_get;
+extern function asctime;
+extern function ctime;
+extern function strftime;
+extern function strptime;
+extern function wcsftime;
+extern function gmtime;
+extern function localtime;
+extern function mktime;
+
+extern variable CLOCKS_PER_SEC;
+extern variable TIME_UTC;
+
+extern type struct_tm;
+extern type time_t;
+extern type clock_t;
+extern type timespec;
+

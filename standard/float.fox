@@ -1,0 +1,37 @@
+extern library "float.h"
+
+extern variable FLT_MIN;
+extern variable DBL_MIN;
+extern variable LDBL_MIN;
+extern variable FLT_TRUE_MIN;
+extern variable DBL_TRUE_MIN;
+extern variable LDBL_TRUE_MIN;
+extern variable FLT_MAX;
+extern variable DBL_MAX;
+extern variable LDBL_MAX;
+extern variable FLT_ROUNDS;
+extern variable FLT_EVAL_METHOD;
+extern variable FLT_RADIX;
+extern variable FLT_DIG;
+extern variable DBL_DIG;
+extern variable LDBL_DIG;
+extern variable FLT_EPSILON;
+extern variable DBL_EPSILON;
+extern variable LDBL_EPSILON;
+extern variable FLT_MANT_DIG;
+extern variable DBL_MANT_DIG;
+extern variable LDBL_MANT_DIG;
+extern variable FLT_MIN_EXP;
+extern variable DBL_MIN_EXP;
+extern variable LDBL_MIN_EXPR;
+extern variable FLT_MIN_10_EXP;
+extern variable DBL_MIN_10_EXP;
+extern variable LDBL_MIN_10_EXP;
+extern variable FLT_MAX_EXP;
+extern variable DBL_MAX_EXP;
+extern variable LDBL_MAX_EXP;
+extern variable FLT_MAX_10_EXP;
+extern variable DBL_MAX_10_EXP;
+extern variable LDBL_MAX_10_EXP;
+extern variable DECIMAL_DIG;
+

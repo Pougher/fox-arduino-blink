@@ -1,0 +1,5 @@
+extern library "stdnoreturn.h"
+
+extern variable _Noreturn;
+extern variable noreturn;
+

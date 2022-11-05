@@ -1,0 +1,11 @@
+{
+    "project": {
+        "name": "fox_avr_test",
+        "output": "fox_avr_test",
+        "directory": "build",
+        "no_std": true
+    },
+    "run_compile_command": true,
+    "compile_command": "avr-gcc",
+    "compile_options": [ "-g", "-Os", "-mmcu=atmega328p", "-Iinclude" ]
+}

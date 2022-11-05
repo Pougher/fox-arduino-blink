@@ -1,0 +1,14 @@
+extern library "signal.h"
+
+extern variable SIGABRT;
+extern variable SIGFPE;
+extern variable SIGILL;
+extern variable SIGINT;
+extern variable SIGSEGV;
+extern variable SIGTERM;
+extern variable SIGTRAP; // can be removed (platform dependant)
+
+extern function raise;
+extern function kill;
+extern function signal;
+
